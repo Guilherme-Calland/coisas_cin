@@ -122,4 +122,3 @@ addNum n = h
 -- quantos argumentos uma funcao tem? --parou mais ou menos aqui
 
 
-

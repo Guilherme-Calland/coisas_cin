@@ -73,7 +73,30 @@ altMap f g [] = []
 altMap f g [x] = [f x]
 altMap f g (x:y:xs) = (f x) : (g x) : altMap f g xs
 
+-- 1
+f :: [Int] -> [Int]
+f [x] = []
+f (x:y:zs)
+ | x == y = x : f (y:zs)
+ | otherwise = f (y:zs)
 
- 
+-- 2
+g :: [Int] -> Bool
+g l = foldr (&&) True (map (\x -> mod x 2 ==0) (filter (<100) l) )
+
+-- 3
+-- a
+type Fabricante = String
+type Potencia = Float
+data Lampada = Compact Fabricante Potencia |
+               Incand  Fabricante Potencia 
+--b
+instance Show Lampada where
+    show (Compact f p) = "Compact " ++ f ++ " " ++ show p
+    show (Incand  f p) = "Incand "  ++ f ++ " " ++ show p
+--c 
+instance Eq Lampada where
+    (Compact f1 p1) == (Compact f2 p2) = (f1 == f2) && (p1 == p2)
+    (Incand  f1 p1) == (Incand  f2 p2) = (f1 == f2) && (p1 == p2)
 
 
