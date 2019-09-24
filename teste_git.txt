@@ -1,0 +1,15 @@
+bleh
+
+im going through changes
+
+git mv:
+move, muda o nome de um arquivo
+ex: git mv <nome do arquivo> <novo nome do arquivo>
+
+git rm:
+remove um arquivo
+
+git grep:
+achar alguma declaracao em algum arquivo
+ex: git grep "funcao"
+--> procura todos os arquivo que tem escritos "funcao"

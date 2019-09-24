@@ -1,0 +1,41 @@
+#controle de qualidade 
+testar o sistema: escrever codigo (testes) que irão avaliar o sistema
+
+review artifacts : outro desenvolvedor analisar o que foi feito antes de jogar no repositório.
+
+pair programming : 2 pessoas trabalhando numa maquina nó, enquanto um programa, o outro verifica se dá tudo certo e, se necessário, dá suas opiniões.
+
+pair programming e review artifacts sao 2 abordagens para barrar sujeira.
+
+reduzir technical debt:
+debito tecnico : codigo sujo (gambiarra) 
+
+#specificacao requisitos
+
+sintaticamente correto para ser executado pelo cucumber depois.
+
+#custos
+
+tamanho da equipe e o custo dela dado um período de tempo.
+
+######################################
+
+16/09
+
+JSON :
+{
+	nome, idade, numseioq
+}
+
+tags:
+elementos graficos, textfield, button, label, table, list.
+
+porque commits frequentes: dando commit a cada pequena mudança fica, caso ocorra algum erro, fica mais facil identificar, qual
+mudança causou o erro.
+
+
+
+
+                           
+
+

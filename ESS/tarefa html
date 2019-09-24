@@ -1,0 +1,56 @@
+Aula 1
+Selecione o conteúdo do repositório do projeto do assistente de ensino na época do segundo commit em ordem cronológica (criação do projeto angular). Basta clicar no terceiro ícone à direita desse commit na página que lista os commits do projeto no GitHub (teachingassistant). 
+ok
+O código fonte do sistema (aplicação) inicialmente criado está em /gui/ta-gui/src/app/, consistindo de um único módulo Angular contendo um único componente. Navegue para esse diretório.
+ok
+Se você executasse essa versão desse sistema em um ambiente com Angular instalado, você veria o seguinte no seu browser:
+ok
+
+As informações visualizadas no browser são definidas pelo código HTML do arquivo app.component.html. Abra e analise esse arquivo, comparando com a imagem da questão anterior. Consulte o manual de referência HTML. Qual a função da tag a? 
+
+Define um Hiperlink, tal como o “Tour of Heroes”
+
+Qual a função do atributo target? 
+
+Target serve para “apontar” aonde a página do hiperlink será aberta (abrir na mesma pagina, em nova página etc)
+
+Entenda as funções dos outros tipos de elementos (tags) e atributos HTML usados nesse arquivo. Que efeito teria tirar o elemento div (tags <div> e </div>, não o conteúdo entre elas) do arquivo em questão?
+
+Se não houvesse divisória <div> e </div> os elementos html seriam vistos como um único elemento.
+Note que a palavra "app" que aparece na imagem do browser mostrada em questão anterior não aparece no HTML. No HTML, temos apenas {{title}}, que é responsável pelo binding (ligação) da informação do estado do componente para o conteúdo da página. Quando executamos o sistema em um ambiente com Angular instalado, a informação title do estado do componente é lida e utilizada para preencher o conteúdo da página. Em que arquivo desse diretório é declarada essa parte do estado?
+
+app.component.ts
+
+Abra agora e analise o arquivo app.component.ts. Indique abaixo como ele referencia os arquivos HTML e CSS relacionados a esse componente da GUI. Observe a inicialização da variável title. Qual o efeito de modificar o valor dessa inicialização? Consulte o manual de referência de Angular. 
+
+    
+
+    Mudaria de “app” para qualquer outro nome que eu decidir    inserir.
+
+Analise os demais arquivos em /gui/ta-gui/src/app/, com exceção do arquivo com terminação spec.ts. Note as referências e dependências entre os arquivos. Como o arquivo que define o módulo referencia o arquivo que define o componente?
+
+bootstrap: [AppComponent]
+
+ Como o arquivo index.html, a página HTML inicialmente mostrada pelo browser quando o sistema é invocado, em /gui/ta-gui/src referencia o componente definido?
+
+<app-root></app-root>
+
+
+Se você não sabe qual o propósito da variável de ambiente PATH, procure informações na web. Nos passos a seguir deste roteiro, registre as pastas nas quais serão instalados os programas solicitados. Em seguida a instalação, se necessário, adicione os caminhos dessas pastas na variável PATH (set PATH mostra o valor atual dessa variável, e PATH=%PATH%;caminho_adicional adiciona um novo caminho ao PATH). No Linux ($PATH mostra o valor atual dessa variável, e PATH=$PATH:caminho_adicional adiciona um novo caminho ao PATH). Cole a seguir o valor atual de PATH na sua máquina.
+
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/sbin:/sbin:caminho_adicional
+
+Digitando npm no terminal de linha de comandos (idealmente do Linux, ou de algum ambiente de simulação do Linux no Windows), verifique se Node.js está instalado na sua máquina. Se não tiver, siga as instruções do link anterior e instale. 
+
+ok
+
+Instale Angular na sua máquina. Se você não tiver permissões adequadas de escrita na sua máquina, você talvez tenha dificuldade de instalar o angular globalmente; se for o caso, não use a opção "-g" (nesse caso de instalação local, a instalação será feita no subdiretório node_modules de onde você chamou o comando de instalação; no Windows, verifique a pasta .bin de node_modules, e no Linux verifique o diretório com o mesmo nome do programa instalado).
+
+    ok
+
+
+Instale o compilador Typescript (tsc) com npm install typescript. Instale também a dependência @types, conforme mensagem dada quando invocando o tsc. Para compilar os arquivos .ts basta invocar tsc no diretório do projeto.
+
+
+Opcionalmente, se você quiser trabalhar de casa (favor não escolher essa opção para as aulas de laboratório) e não tiver em casa computador com configuração necessária para instalar o Angular e o Node, cadastre-se em uma IDE on-line para Angular: https://plnkr.co ou  https://stackblitz.com, que tem umas funcionalidades mais interessantes do que a primeira, mas que talvez seja menos estável. Crie um novo projeto (Angular, não AngularJS) nesse ambiente, e em seguida altere esse projeto para que ele tenha conteúdo similar aos arquivos do diretório /gui/ta-gui/src do repositório do projeto do assistente de ensino na época do terceiro commit (elementos do formulario para cadastro de alunos). Foque apenas em criar ou modificar os arquivos de módulo, componente, HTML, e CSS. Para criar arquivos em plnkr.co, digite "src/" antes do nome do arquivo, para que ele seja criado no mesmo diretório que os arquivos existentes. Além disso, nos imports, use "src/" ao invés dos "./" que temos nos arquivos do projeto no GitHub. Altere o index.html para referenciar o componente via "app-root", não "my-app". Em caso de problema, analise o console Javascript (normalmente uma opção de desenvolvedor) do seu browser.
+

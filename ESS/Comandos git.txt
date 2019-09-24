@@ -1,0 +1,49 @@
+git -> ver todos os comandos git.
+
+git init -> cria um repositorio na máquina
+
+git status -> o status do projeto na sua máquina (se há modificacoes
+nao commitadas por exemplo)
+
+git diff -> a diferença entre seu diretório de trabalho em 
+relação ao seu último commit.
+
+git commit -a -m "numseioq"
+
+origin -> a branch na qual você está trabalhando
+
+git push origin master
+
+ver histórico de commits de forma mais detalhada
+git log --graph 
+
+ver historico de commits de em uma linha
+
+deletar uma branch local:
+git -d <nomeDaBranch>
+
+deletar uma branch remota:
+git push origin --delete <nomeDaBranchRemota>
+
+savar mudanças no ultimo commit, sem criar um novo commit
+git commit --amend
+
+salvar versões de release
+git tag
+
+apagar mudancas nao comitadas
+git checkout .
+
+remover n commits:
+git reset HEAD~n
+remover n commits e apagar todas as mudancas:
+git reset --hard HEAD~n
+
+reverter as mudanças num commit sem apagar o commit do historico:
+git revert <hash do commit>
+
+forçar o push:
+pit push -f origin <branch>
+
+criar e ir pra nova branch
+git checkout -b nomeDaBranch
