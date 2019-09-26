@@ -47,3 +47,6 @@ pit push -f origin <branch>
 
 criar e ir pra nova branch
 git checkout -b nomeDaBranch
+
+cancelar um rebase:
+git rebase --abort
