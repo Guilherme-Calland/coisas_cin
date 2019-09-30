@@ -1,0 +1,12 @@
+﻿/*
+multitarefas: processos e threads
+processo é um programa que está sendo executado
+thread é uma parte do programa que está sendo executada em 
+pseudoparalelismo
+
+start: inicia o medoto run
+
+run: executa a terafa da thread
+
+sleep: coloca a thread para dormir depois de X milissegundos
+*/

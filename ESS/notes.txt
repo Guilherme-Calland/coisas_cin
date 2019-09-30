@@ -33,6 +33,15 @@ elementos graficos, textfield, button, label, table, list.
 porque commits frequentes: dando commit a cada pequena mudança fica, caso ocorra algum erro, fica mais facil identificar, qual
 mudança causou o erro.
 
+#########################
+30/09
+pra que criar um modulo de serviço?
+
+porque nao nos interessa cada aluno guardar um array de aluno
+mas uma lista de alunos compartilhar um array de alunos,
+para isso criamos um SERVIDOR que vai compartilhar a informacao
+com todos os usuarios
+
 
 
 
