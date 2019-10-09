@@ -42,6 +42,59 @@ mas uma lista de alunos compartilhar um array de alunos,
 para isso criamos um SERVIDOR que vai compartilhar a informacao
 com todos os usuarios
 
+passando parametros para o servidor:
+/alunos?nome=pedro
+
+let é difrerente de var como?
+let cria uma variavel local, aonde nao pode ser usado novamente
+
+07/10
+queremos agora enviar uma requisicao pro servidor
+######################################################
+10/09
+
+^ -> começo da string
+$ indica o final da string
+
+/^asdsadda$/
+
+browser.get("asdsda") ->o mesmo que digitar sadsada no browser.
+
+await -> só va adiante se o browser responder (sincrono).
+
+await$ -> existe algum atributo 'a' no qual o name = 'alunos'?, entao é nele mesmo que quero clicar
+$ -> query
+a -> aquele <a hajkdhasjkd> no codigo html tipo:
+<a name = "alunos" routerLink...</a>
+
+"(\d*)" casa com async(cpf)
+
+element.all -> ele pega todos os elemenots 
+
+('cpflist') -> todos os elementos html cujo nome é cpflist 
+
+retorna um array de <td>'s nesse caso.
+
+.to.evantually.equal(0) -> no caso, nao enconhar NENHUM aluno com o mesmo cpf
+ele procura uma lista de alunos com aquele mesmo cpf, verificando se o length da lista é zero (achou ninguem).
+
+Promise<String> -> feito obsevable, mas só retorna 1 elemto ao inves de uma lista;
+
+p.then(asdsad) -> somento se a promessa for cumprida, executa sadsadsa
+
+When: 
+[^\"]* -> uma sequencia de caracteres menos ".
+só tem ação nesse When.
+
+Then -> pelo nome e cpf se to.eventually.equal(1).
+
+
+
+
+
+
+
+
 
 
 
