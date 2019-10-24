@@ -1,1 +1,68 @@
-domain driven data mining.
+24/10
+
+domain driven data mining?
+
+respostas do dominio discreto: classificacao.
+ex: decisao de concedeer ou nao credito ao consumidor.
+
+respostas no dominio contínuo: regressao
+ex: previsao do limite de credito a ser concedido.
+
+*computability x learnability
+computability : é o poder computacional de um sistema, expresso em termos do universo de funcoes que ele é capaz de computar.
+
+*learnability: é o poder computacional que os algoritmos de aprendizagem oferecem a um sistema adaptativo expresso em termos do universo de funcoes que eles sao capazes de fazer o sistema efetivamento computar.
+
+-tipos de aprendizagem I
+*supervisionada: um "professor" diz quanto a respodta dada pelo sistema de aproxima da resposta desejada.
+ex: nota de um aluno da prova
+*por reforço: um "professor" diz apenas se a resposta dada
+#ele trocou de slide
+
+-tipo de Aprendizagem II
+*supervisionada: (mais adequada pra cadeira)
+**conjunto de treinamento s = {(x1,f(x1)),(x2,f(x2))...,(xn,(f(xn))}
+**convergenca rapida
+*por reforço:
+**cnjto de tnmto s [ {(x1,sgn[(f(x1) ...
+*nao supervisionado
+**conjunto de treinamento s = {(x1, ),(x2, ),...,(xn, )}
+**convergencia lenta
+
+-Teoria de aprendizagem Computacional:Exemplo de calssificacao supervisionada
+
+caso específico: Aprendizagem é o processo de modificacao do estado da maquina M com base nos exemplos a ela apresentados visando a deica-la apra a classificar exemplos nao vistos
+#####
+esquece, só tira foto.
+
+underfitting, goodfit, overfitting.
+
+
+
+
+Im a feminine eminem, a slim shady lady
+but nice caue i texted haidi
+ninety lady cops on the roas and I'm arrrested for doing eighty
+like hamlet all about words words words
+divide a whole into third third thirds
+I'm a gay sea otter, I blow other dudes out of the water
+I'm the man, muffin diving 
+muffin cold and fly like an arctic puffin
+puffin, wacky tobacky
+hating other rappers like I'm helga patacky
+I've been rocking this mic before electricity
+way back in a thousand bce 
+thats before the common era era era era
+era era woah
+I can't be stopped 
+flows so sick that it should be mopped up
+chick's got a dixy cup
+I got a dick full of helium
+I'll fuck you up
+a boy a girl a middle aged bitch
+botox in the third person
+I'll give the perspective a switch and
+Bo talks in the third person...
+just relax, if you wanna know me 
+here's two facts:
+I hate catchy
