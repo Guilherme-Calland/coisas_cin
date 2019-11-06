@@ -147,6 +147,12 @@ deleteOnExit();
 teste deverá ser independente de plataforma: 
 É importante que a implementação de um teste seja independente de plataforma (no sentido que o teste possa ser executado com sucesso independentemente de sistema operacional, tipo e versão de browser, idioma, etc.)
 
+############################
+
+06/11
+
+cadastro de alunos é um objeto que contem varios alunos
+
 
 
 
