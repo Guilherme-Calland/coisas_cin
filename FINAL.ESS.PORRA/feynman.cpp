@@ -208,7 +208,7 @@ m1
 m2
 m
 
-squash: usado para medir varios commits
+squash: usado para unir varios commits
 o squash tem o inuito de diminuir o numero de commits afim de melhor representar
 ohistorico de desenvolvimento do projeto.
 */
