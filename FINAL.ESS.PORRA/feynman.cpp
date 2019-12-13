@@ -12,7 +12,7 @@ manter registro do progresso, agendar prazos e alocar tarefas aos membros da equ
 
 Agile, BDD:
 é um dos pilares da abordagem agile a consulta frequente com os stakeholders.
-É como com as equipes agile se reuniremo (desenvolvedores e stakeholders) de duas em duas semanas
+É comum as equipes agile se reunirem (desenvolvedores e stakeholders) de duas em duas semanas
 para crirar novos cenários e checar com os stakeholder que o que foi criado até então
 está como eles imaginaram(validacao).
 
